@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    android:background="@drawable/gradient"
+    tools:context=".Events" >
+
+    <Button
+        android:id="@+id/iit"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_corners"
+        android:text="IIT"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/nit"
+        android:background="@drawable/rounded_corners"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/iit"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="NIT"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/pvt"
+        android:background="@drawable/rounded_corners"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/nit"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Other Colleges"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

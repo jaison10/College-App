@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignBottom="@+id/event"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="100dp"
+            app:srcCompat="@drawable/sahyadri" />
+
+        <Button
+            android:id="@+id/event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/rounded_corners"
+            android:text="IIT And NIT Events"
+            android:textAllCaps="false" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/linearlayoutbg"
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*"
+            >
+            <TableRow>
+         <Button
+             android:id="@+id/workshop"
+             android:layout_width="wrap_content"
+             android:textAllCaps="false"
+             android:background="@drawable/rounded_corners"
+             android:layout_height="wrap_content"
+             android:text="Workshop" />
+
+    <Button
+        android:id="@+id/seminar"
+        android:background="@drawable/rounded_corners"
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="Seminar" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_corners"
+        android:layout_height="wrap_content"
+        android:text="Profile" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</RelativeLayout>

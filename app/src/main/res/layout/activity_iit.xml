@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    android:background="#000000"
+    tools:context=".Events" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:background="@drawable/imageview"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/iit1" />
+        />
+        <ImageView
+            android:background="@drawable/imageview"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/iitdelhi" />
+        />
+
+        <ImageView
+            android:background="@drawable/imageview"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/iitbombay" />
+        />
+
+        <ImageView
+            android:background="@drawable/imageview"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/iitkharagpur" />
+        />
+
+        <ImageView
+            android:background="@drawable/imageview"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/iitkanpur" />
+        />
+
+        <ImageView
+            android:background="@drawable/imageview"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/iitroorke" />
+        />
+    </LinearLayout>
+</ScrollView>
